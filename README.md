@@ -7,7 +7,12 @@ Demo app to reproduce bug with packaging Sharp with Electron.
 These steps were performed on Ubuntu 20.04.2, running in WSL2 on Windows 10.
 
 1. Generated using steps from https://www.electronforge.io/templates/typescript-+-webpack-template
-2. Installed `sharp` with `--build-from-source` flag (+ type definitions)
+2. Installed `sharp` and type defs with following args (npm v6):
+
+```
+npm install sharp --build-from-source --unsafe-perm
+```
+
 3. Updated `webpack.renderer.config.js` to add sharp to `externals` fields
 4. Updated `src/renderer.ts` script to call Sharp
 5. Updated `src/index.ts` to set `nodeIntegration` to `true` and `contextIsolation` to `false`

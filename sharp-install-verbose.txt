@@ -1,0 +1,268 @@
+npm info it worked if it ends with ok
+npm verb cli [
+npm verb cli   '/home/jamesbraund/.nvm/versions/node/v14.15.0/bin/node',
+npm verb cli   '/home/jamesbraund/.nvm/versions/node/v14.15.0/bin/npm',
+npm verb cli   'i',
+npm verb cli   'sharp',
+npm verb cli   '--verbose',
+npm verb cli   '--unsafe-perm',
+npm verb cli   '--build-from-source'
+npm verb cli ]
+npm info using npm@6.14.8
+npm info using node@v14.15.0
+npm verb npm-session 319df14189d4d753
+npm http fetch GET 304 https://registry.npmjs.org/sharp 255ms (from cache)
+npm timing stage:loadCurrentTree Completed in 2086ms
+npm timing stage:loadIdealTree:cloneCurrentTree Completed in 12ms
+npm timing stage:loadIdealTree:loadShrinkwrap Completed in 852ms
+npm http fetch GET 200 https://registry.npmjs.org/prebuild-install 27ms (from cache)
+npm http fetch GET 200 https://registry.npmjs.org/tar-fs 28ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/color 63ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/node-addon-api 123ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/simple-get 157ms (from cache)
+npm http fetch GET 200 https://registry.npmjs.org/color-convert 8ms (from cache)
+npm http fetch GET 200 https://registry.npmjs.org/color-string 8ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/color-name 62ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/simple-swizzle 56ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/is-arrayish 59ms (from cache)
+npm http fetch GET 200 https://registry.npmjs.org/mkdirp-classic 12ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/github-from-package 50ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/napi-build-utils 66ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/expand-template 68ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/noop-logger 133ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/decompress-response 67ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/simple-concat 73ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/mimic-response 40ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/tar-stream 93ms (from cache)
+npm http fetch GET 200 https://registry.npmjs.org/readable-stream 9ms (from cache)
+npm http fetch GET 304 https://registry.npmjs.org/fs-constants 53ms (from cache)
+npm timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 5675ms
+npm timing stage:loadIdealTree Completed in 6909ms
+npm timing stage:generateActionsToTake Completed in 139ms
+npm verb correctMkdir /home/jamesbraund/.npm/_locks correctMkdir not in flight; initializing
+npm verb lock using /home/jamesbraund/.npm/_locks/staging-2571f57e1652a1ea.lock for /home/jamesbraund/workspace/electron-sharp-demo/node_modules/.staging
+npm timing action:extract Completed in 171ms
+npm timing action:finalize Completed in 44ms
+npm timing action:refresh-package-json Completed in 58ms
+npm info lifecycle color-name@1.1.3~preinstall: color-name@1.1.3
+npm info lifecycle color-convert@1.9.3~preinstall: color-convert@1.9.3
+npm info lifecycle expand-template@2.0.3~preinstall: expand-template@2.0.3
+npm info lifecycle fs-constants@1.0.0~preinstall: fs-constants@1.0.0
+npm info lifecycle github-from-package@0.0.0~preinstall: github-from-package@0.0.0
+npm info lifecycle mkdirp-classic@0.5.3~preinstall: mkdirp-classic@0.5.3
+npm info lifecycle napi-build-utils@1.0.2~preinstall: napi-build-utils@1.0.2
+npm info lifecycle noop-logger@0.1.1~preinstall: noop-logger@0.1.1
+npm info lifecycle simple-concat@1.0.1~preinstall: simple-concat@1.0.1
+npm info lifecycle mimic-response@2.1.0~preinstall: mimic-response@2.1.0
+npm info lifecycle decompress-response@4.2.1~preinstall: decompress-response@4.2.1
+npm info lifecycle simple-get@3.1.0~preinstall: simple-get@3.1.0
+npm info lifecycle is-arrayish@0.3.2~preinstall: is-arrayish@0.3.2
+npm info lifecycle simple-swizzle@0.2.2~preinstall: simple-swizzle@0.2.2
+npm info lifecycle color-string@1.5.5~preinstall: color-string@1.5.5
+npm info lifecycle readable-stream@3.6.0~preinstall: readable-stream@3.6.0
+npm info lifecycle tar-stream@2.2.0~preinstall: tar-stream@2.2.0
+npm info lifecycle tar-fs@2.1.1~preinstall: tar-fs@2.1.1
+npm info lifecycle color@3.1.3~preinstall: color@3.1.3
+npm info lifecycle prebuild-install@6.1.2~preinstall: prebuild-install@6.1.2
+npm info lifecycle node-addon-api@3.1.0~preinstall: node-addon-api@3.1.0
+npm info lifecycle sharp@0.28.2~preinstall: sharp@0.28.2
+npm timing action:preinstall Completed in 5ms
+npm info linkStuff color-name@1.1.3
+npm info linkStuff color-convert@1.9.3
+npm info linkStuff expand-template@2.0.3
+npm info linkStuff fs-constants@1.0.0
+npm info linkStuff github-from-package@0.0.0
+npm info linkStuff mkdirp-classic@0.5.3
+npm info linkStuff napi-build-utils@1.0.2
+npm info linkStuff noop-logger@0.1.1
+npm info linkStuff simple-concat@1.0.1
+npm info linkStuff mimic-response@2.1.0
+npm info linkStuff decompress-response@4.2.1
+npm info linkStuff simple-get@3.1.0
+npm info linkStuff is-arrayish@0.3.2
+npm info linkStuff simple-swizzle@0.2.2
+npm info linkStuff color-string@1.5.5
+npm info linkStuff readable-stream@3.6.0
+npm info linkStuff tar-stream@2.2.0
+npm info linkStuff tar-fs@2.1.1
+npm info linkStuff color@3.1.3
+npm info linkStuff prebuild-install@6.1.2
+npm verb linkBins [
+npm verb linkBins   { 'prebuild-install': 'bin.js' },
+npm verb linkBins   '/home/jamesbraund/workspace/electron-sharp-demo/node_modules/.bin',
+npm verb linkBins   false
+npm verb linkBins ]
+npm info linkStuff node-addon-api@3.1.0
+npm info linkStuff sharp@0.28.2
+npm timing action:build Completed in 8ms
+npm info lifecycle color-name@1.1.3~install: color-name@1.1.3
+npm info lifecycle color-convert@1.9.3~install: color-convert@1.9.3
+npm info lifecycle expand-template@2.0.3~install: expand-template@2.0.3
+npm info lifecycle fs-constants@1.0.0~install: fs-constants@1.0.0
+npm info lifecycle github-from-package@0.0.0~install: github-from-package@0.0.0
+npm info lifecycle mkdirp-classic@0.5.3~install: mkdirp-classic@0.5.3
+npm info lifecycle napi-build-utils@1.0.2~install: napi-build-utils@1.0.2
+npm info lifecycle noop-logger@0.1.1~install: noop-logger@0.1.1
+npm info lifecycle simple-concat@1.0.1~install: simple-concat@1.0.1
+npm info lifecycle mimic-response@2.1.0~install: mimic-response@2.1.0
+npm info lifecycle decompress-response@4.2.1~install: decompress-response@4.2.1
+npm info lifecycle simple-get@3.1.0~install: simple-get@3.1.0
+npm info lifecycle is-arrayish@0.3.2~install: is-arrayish@0.3.2
+npm info lifecycle simple-swizzle@0.2.2~install: simple-swizzle@0.2.2
+npm info lifecycle color-string@1.5.5~install: color-string@1.5.5
+npm info lifecycle readable-stream@3.6.0~install: readable-stream@3.6.0
+npm info lifecycle tar-stream@2.2.0~install: tar-stream@2.2.0
+npm info lifecycle tar-fs@2.1.1~install: tar-fs@2.1.1
+npm info lifecycle color@3.1.3~install: color@3.1.3
+npm info lifecycle prebuild-install@6.1.2~install: prebuild-install@6.1.2
+npm info lifecycle node-addon-api@3.1.0~install: node-addon-api@3.1.0
+npm info lifecycle sharp@0.28.2~install: sharp@0.28.2
+
+> sharp@0.28.2 install /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp
+> (node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)
+
+sharp: Using cached /home/jamesbraund/.npm/_libvips/libvips-8.10.6-linux-x64.tar.br
+prebuild-install info begin Prebuild-install version 6.1.2
+prebuild-install info install --build-from-source specified, not attempting download.
+gyp info it worked if it ends with ok
+gyp verb cli [
+gyp verb cli   '/home/jamesbraund/.nvm/versions/node/v14.15.0/bin/node',
+gyp verb cli   '/home/jamesbraund/.nvm/versions/node/v14.15.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js',
+gyp verb cli   'rebuild'
+gyp verb cli ]
+gyp info using node-gyp@5.1.0
+gyp info using node@14.15.0 | linux | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing "build" directory
+gyp verb command configure []
+gyp verb find Python Python is not set from command line or npm configuration
+gyp verb find Python Python is not set from environment variable PYTHON
+gyp verb find Python checking if "python" can be used
+gyp verb find Python - executing "python" to get executable path
+gyp verb find Python - "python" is not in PATH or produced an error
+gyp verb find Python checking if "python2" can be used
+gyp verb find Python - executing "python2" to get executable path
+gyp verb find Python - "python2" is not in PATH or produced an error
+gyp verb find Python checking if "python3" can be used
+gyp verb find Python - executing "python3" to get executable path
+gyp verb find Python - executable path is "/usr/bin/python3"
+gyp verb find Python - executing "/usr/bin/python3" to get version
+gyp verb find Python - version is "3.8.5"
+gyp info find Python using Python version 3.8.5 found at "/usr/bin/python3"
+gyp verb get node dir no --target version specified, falling back to host node version: 14.15.0
+gyp verb command install [ '14.15.0' ]
+gyp verb install input version string "14.15.0"
+gyp verb install installing version: 14.15.0
+gyp verb install --ensure was passed, so won't reinstall if already installed
+gyp verb install version is already installed, need to check "installVersion"
+gyp verb got "installVersion" 9
+gyp verb needs "installVersion" 9
+gyp verb install version is good
+gyp verb get node dir target node version installed: 14.15.0
+gyp verb build dir attempting to create "build" dir: /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/build
+gyp verb build dir "build" dir needed to be created? /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/build
+gyp verb build/config.gypi creating config file
+gyp verb build/config.gypi writing out config file: /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/build/config.gypi
+gyp verb config.gypi checking for gypi file: /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/config.gypi
+gyp verb common.gypi checking for gypi file: /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/common.gypi
+gyp verb gyp gyp format was not specified; forcing "make"
+gyp info spawn /usr/bin/python3
+gyp info spawn args [
+gyp info spawn args   '/home/jamesbraund/.nvm/versions/node/v14.15.0/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py',
+gyp info spawn args   'binding.gyp',
+gyp info spawn args   '-f',
+gyp info spawn args   'make',
+gyp info spawn args   '-I',
+gyp info spawn args   '/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/build/config.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/home/jamesbraund/.nvm/versions/node/v14.15.0/lib/node_modules/npm/node_modules/node-gyp/addon.gypi',
+gyp info spawn args   '-I',
+gyp info spawn args   '/home/jamesbraund/.cache/node-gyp/14.15.0/include/node/common.gypi',
+gyp info spawn args   '-Dlibrary=shared_library',
+gyp info spawn args   '-Dvisibility=default',
+gyp info spawn args   '-Dnode_root_dir=/home/jamesbraund/.cache/node-gyp/14.15.0',
+gyp info spawn args   '-Dnode_gyp_dir=/home/jamesbraund/.nvm/versions/node/v14.15.0/lib/node_modules/npm/node_modules/node-gyp',
+gyp info spawn args   '-Dnode_lib_file=/home/jamesbraund/.cache/node-gyp/14.15.0/<(target_arch)/node.lib',
+gyp info spawn args   '-Dmodule_root_dir=/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp',
+gyp info spawn args   '-Dnode_engine=v8',
+gyp info spawn args   '--depth=.',
+gyp info spawn args   '--no-parallel',
+gyp info spawn args   '--generator-output',
+gyp info spawn args   'build',
+gyp info spawn args   '-Goutput_dir=.'
+gyp info spawn args ]
+gyp verb command build []
+gyp verb build type Release
+gyp verb architecture x64
+gyp verb node dev dir /home/jamesbraund/.cache/node-gyp/14.15.0
+gyp verb `which` succeeded for `make` /usr/bin/make
+gyp info spawn make
+gyp info spawn args [ 'V=1', 'BUILDTYPE=Release', '-C', 'build' ]
+make: Entering directory '/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/build'
+  touch Release/obj.target/libvips-cpp.stamp
+  cc '-DNODE_GYP_MODULE_NAME=nothing' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer  -MMD -MF ./Release/.deps/Release/obj.target/nothing/node_modules/node-addon-api/nothing.o.d.raw   -c -o Release/obj.target/nothing/node_modules/node-addon-api/nothing.o ../node_modules/node-addon-api/nothing.c
+  rm -f Release/obj.target/node_modules/node-addon-api/nothing.a && ar crs Release/obj.target/node_modules/node-addon-api/nothing.a Release/obj.target/nothing/node_modules/node-addon-api/nothing.o
+  rm -rf "Release/nothing.a" && cp -af "Release/obj.target/node_modules/node-addon-api/nothing.a" "Release/nothing.a"
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/common.o.d.raw   -c -o Release/obj.target/sharp/src/common.o ../src/common.cc
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/metadata.o.d.raw   -c -o Release/obj.target/sharp/src/metadata.o ../src/metadata.cc
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/stats.o.d.raw   -c -o Release/obj.target/sharp/src/stats.o ../src/stats.cc
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/operations.o.d.raw   -c -o Release/obj.target/sharp/src/operations.o ../src/operations.cc
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/pipeline.o.d.raw   -c -o Release/obj.target/sharp/src/pipeline.o ../src/pipeline.cc
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/utilities.o.d.raw   -c -o Release/obj.target/sharp/src/utilities.o ../src/utilities.cc
+  g++ '-DNODE_GYP_MODULE_NAME=sharp' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-DV8_DEPRECATION_WARNINGS' '-DV8_IMMINENT_DEPRECATION_WARNINGS' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-D__STDC_FORMAT_MACROS' '-DOPENSSL_NO_PINSHARED' '-DOPENSSL_THREADS' '-DNAPI_VERSION=3' '-D_GLIBCXX_USE_CXX11_ABI=1' '-DBUILDING_NODE_EXTENSION' -I/home/jamesbraund/.cache/node-gyp/14.15.0/include/node -I/home/jamesbraund/.cache/node-gyp/14.15.0/src -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/config -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/openssl/openssl/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/uv/include -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/zlib -I/home/jamesbraund/.cache/node-gyp/14.15.0/deps/v8/include -I../node_modules/node-addon-api -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/include/glib-2.0 -I/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib/glib-2.0/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++1y -std=c++0x -fexceptions -Wall -O3 -Wno-cast-function-type -MMD -MF ./Release/.deps/Release/obj.target/sharp/src/sharp.o.d.raw   -c -o Release/obj.target/sharp/src/sharp.o ../src/sharp.cc
+  g++ -shared -pthread -rdynamic -m64 -Wl,-s -Wl,--disable-new-dtags -Wl,-rpath='$ORIGIN/../../vendor/8.10.6/lib' -L/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/vendor/8.10.6/lib  -Wl,-soname=sharp.node -o Release/obj.target/sharp.node -Wl,--start-group Release/obj.target/sharp/src/common.o Release/obj.target/sharp/src/metadata.o Release/obj.target/sharp/src/stats.o Release/obj.target/sharp/src/operations.o Release/obj.target/sharp/src/pipeline.o Release/obj.target/sharp/src/utilities.o Release/obj.target/sharp/src/sharp.o Release/obj.target/node_modules/node-addon-api/nothing.a -Wl,--end-group -l:libvips-cpp.so.42
+  rm -rf "Release/sharp.node" && cp -af "Release/obj.target/sharp.node" "Release/sharp.node"
+make: Leaving directory '/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/build'
+gyp info ok 
+npm verb lifecycle sharp@0.28.2~install: unsafe-perm in lifecycle true
+npm verb lifecycle sharp@0.28.2~install: PATH: /home/jamesbraund/.nvm/versions/node/v14.15.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp/node_modules/.bin:/home/jamesbraund/workspace/electron-sharp-demo/node_modules/.bin:/home/jamesbraund/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/bin:/home/jamesbraund/.nvm/versions/node/v14.15.0/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/zdodg/.windows-build-tools/python27/:/mnt/c/Users/zdodg/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/zdodg/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/zdodg/AppData/Roaming/npm:/home/jamesbraund/bin:/home/jamesbraund/bin
+npm verb lifecycle sharp@0.28.2~install: CWD: /home/jamesbraund/workspace/electron-sharp-demo/node_modules/sharp
+npm timing audit submit Completed in 1276ms
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 1275ms
+npm timing audit body Completed in 1ms
+npm timing action:install Completed in 17030ms
+npm info lifecycle color-name@1.1.3~postinstall: color-name@1.1.3
+npm info lifecycle color-convert@1.9.3~postinstall: color-convert@1.9.3
+npm info lifecycle expand-template@2.0.3~postinstall: expand-template@2.0.3
+npm info lifecycle fs-constants@1.0.0~postinstall: fs-constants@1.0.0
+npm info lifecycle github-from-package@0.0.0~postinstall: github-from-package@0.0.0
+npm info lifecycle mkdirp-classic@0.5.3~postinstall: mkdirp-classic@0.5.3
+npm info lifecycle napi-build-utils@1.0.2~postinstall: napi-build-utils@1.0.2
+npm info lifecycle noop-logger@0.1.1~postinstall: noop-logger@0.1.1
+npm info lifecycle simple-concat@1.0.1~postinstall: simple-concat@1.0.1
+npm info lifecycle mimic-response@2.1.0~postinstall: mimic-response@2.1.0
+npm info lifecycle decompress-response@4.2.1~postinstall: decompress-response@4.2.1
+npm info lifecycle simple-get@3.1.0~postinstall: simple-get@3.1.0
+npm info lifecycle is-arrayish@0.3.2~postinstall: is-arrayish@0.3.2
+npm info lifecycle simple-swizzle@0.2.2~postinstall: simple-swizzle@0.2.2
+npm info lifecycle color-string@1.5.5~postinstall: color-string@1.5.5
+npm info lifecycle readable-stream@3.6.0~postinstall: readable-stream@3.6.0
+npm info lifecycle tar-stream@2.2.0~postinstall: tar-stream@2.2.0
+npm info lifecycle tar-fs@2.1.1~postinstall: tar-fs@2.1.1
+npm info lifecycle color@3.1.3~postinstall: color@3.1.3
+npm info lifecycle prebuild-install@6.1.2~postinstall: prebuild-install@6.1.2
+npm info lifecycle node-addon-api@3.1.0~postinstall: node-addon-api@3.1.0
+npm info lifecycle sharp@0.28.2~postinstall: sharp@0.28.2
+npm timing action:postinstall Completed in 5ms
+npm verb unlock done using /home/jamesbraund/.npm/_locks/staging-2571f57e1652a1ea.lock for /home/jamesbraund/workspace/electron-sharp-demo/node_modules/.staging
+npm timing stage:executeActions Completed in 17340ms
+npm timing stage:rollbackFailedOptional Completed in 1ms
+npm timing stage:runTopLevelLifecycles Completed in 26779ms
+npm verb saving [ { name: 'sharp', spec: '^0.28.2', save: 'dependencies' } ]
+npm info lifecycle electron-sharp-demo@1.0.0~preshrinkwrap: electron-sharp-demo@1.0.0
+npm info lifecycle electron-sharp-demo@1.0.0~shrinkwrap: electron-sharp-demo@1.0.0
+npm info lifecycle electron-sharp-demo@1.0.0~postshrinkwrap: electron-sharp-demo@1.0.0
+npm WARN electron-sharp-demo@1.0.0 No repository field.
+
++ sharp@0.28.2
+added 22 packages from 166 contributors and audited 1144 packages in 27.472s
+
+110 packages are looking for funding
+  run `npm fund` for details
+
+found 8 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+npm verb exit [ 0, true ]
+npm timing npm Completed in 28336ms
+npm info ok 
